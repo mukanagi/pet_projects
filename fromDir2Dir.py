@@ -4,6 +4,8 @@ import shutil
 os.chdir('SS22Photo')
 counter = 0
 
+# start
+
 for dir in os.listdir():
     try:
         os.chdir(dir)
