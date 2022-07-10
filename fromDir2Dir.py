@@ -7,6 +7,7 @@ counter = 0
 # start
 
 for dir in os.listdir():
+    print(counter, ')' dir)
     try:
         os.chdir(dir)
         for file in os.listdir():
